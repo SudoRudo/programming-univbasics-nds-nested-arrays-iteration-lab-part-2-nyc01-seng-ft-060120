@@ -5,4 +5,5 @@ def find_min_in_nested_arrays(src)
     low.push src[day].sort.first
     day += 1
   end
+  low
 end
